@@ -22,11 +22,37 @@ for hid in hiding_kids:
 for number in range(101):
     print(number)
 
-for number in range(0, 100, 5):
+for number in range(100):
+  if number % 5 == 0:
+      print("Chicken")
+  else:
     print(number)
 
-for number in range(0, 100, 10):
+for number in range(100):
+  if number % 7 == 0:
+      print("Monkey")
+  else:
     print(number)
 
-for number in range(0, 100, 15):
+for number in range(100):
+  if(number%7==0 and number%5==0):
+      print("ChickenMonkey")
+  else:
     print(number)
+
+
+# Coins to Cash
+
+def calc_dollars(pennies, nickels, dimes, quarters):
+
+  piggy_bank = {
+    "pennies": pennies,
+    "nickels": nickels,
+    "dimes": dimes,
+    "quarters": quarters,
+}
+
+  dollar_amount = (piggy_bank["pennies"] / 100) + (piggy_bank["nickels"] / 20) + (piggy_bank["dimes"] / 10) + (piggy_bank["quarters"] / 4)
+  print(f"You have {dollar_amount} in change.")
+
+calc_dollars(342, 9, 32, 7)
