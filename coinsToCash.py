@@ -1,28 +1,32 @@
 # Activities for kids
 
-# swinging_kids = ["Marybeth", "Jenna", "Kevin", "Courtney"]
-# sliding_kids = ["Mike", "Jack", "Jennifer", "Earl"]
-# hiding_kids = ["Henry", "Heather", "Hayley", "Hugh"]
+running_kids = ["Pam", "Sam", "Andrea", "Will"]
+for run in running_kids:
+  print(f"{run} ran like a fool")
+
+swinging_kids = ["Marybeth", "Jenna", "Kevin", "Courtney"]
+for swing in swinging_kids:
+  print(f"{swing} loves to swing really high!")
 
 
-# def running_kids(names):
-#      for name in names:
-#        print("Hello",{name})
+sliding_kids = ["Mike", "Jack", "Jennifer", "Earl"]
+for slid in sliding_kids:
+  print(f"{slid} slid down the slide!")
 
+hiding_kids = ["Henry", "Heather", "Hayley", "Hugh"]
+for hid in hiding_kids:
+  print(f"{hid} is really good at hiding!")
 
-# for i in running_kids.values:
-#   print(i)
+# Practice Chicken Monkey
 
+for number in range(101):
+    print(number)
 
-def run( running_kids ):
-   running_kids = ["Pam", "Sam", "Andrea", "Will"]
+for number in range(0, 100, 5):
+    print(number)
 
-   print ("Values inside the function: ", mylist)
-   return
+for number in range(0, 100, 10):
+    print(number)
 
-def calc_dollars()
-piggyBank = {
-    "pennies": 342,
-    "nickels": 9,
-    "dimes": 32
-}
+for number in range(0, 100, 15):
+    print(number)
